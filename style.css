@@ -1,0 +1,76 @@
+@import url("./assets/fonts/Montserrat.css");
+body,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.github-sticky-button{
+  background-color: black;
+  height: 120px;
+  width: 120px;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: flex;
+  padding-left: 60px;
+  padding-top: 15px;
+}
+
+.navbar {
+  padding: 30px 0px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+.nav-link a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Custom Container */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
